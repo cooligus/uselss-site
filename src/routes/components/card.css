@@ -1,0 +1,22 @@
+.card {
+	border: var(--border-default);
+	margin-block: 1.8em;
+	background-color: #FFF;
+}
+
+.card-body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1.2em;
+}
+
+.card-h2 {
+	font-size: 1em;
+}
+
+.card-time {
+	font-size: 0.8em;
+	font-weight: 700;
+	color: #0008;
+}

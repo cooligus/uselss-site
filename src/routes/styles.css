@@ -1,0 +1,16 @@
+:root {
+	--border-width: 2px;
+	--border-default: var(--border-width) solid #0001;
+	--navbar-spacing-y: 1.5em;
+	--navbar-spacing-x: 1.6em;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000b;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	background-color: #EEE;
+}

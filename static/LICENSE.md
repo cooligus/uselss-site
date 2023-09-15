@@ -1,0 +1,1 @@
+I don't know what is license of pdf files in this location, so treat them as proprietary.

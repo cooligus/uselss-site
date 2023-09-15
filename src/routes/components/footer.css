@@ -1,0 +1,11 @@
+.icons {
+    margin-block: 2em;
+    gap: 1em;
+    display: flex;
+    color: #0006;
+}
+
+.footer-text {
+    text-transform: uppercase;
+    font-size: .6em;
+}

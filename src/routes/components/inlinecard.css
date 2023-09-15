@@ -1,0 +1,18 @@
+.inlinecard {
+	margin-block: 1em;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.inlinecard-h2 {
+	margin-top: 0;
+	margin-bottom: 0.2em;
+	font-size: 1em;
+}
+
+.inlinecard-img {
+	margin-right: 1em;
+	width: 5em;
+	height: 5em;
+}

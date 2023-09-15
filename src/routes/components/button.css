@@ -1,0 +1,11 @@
+.button {
+	border: var(--border-default);
+	padding-block: 1em;
+	padding-inline: 2em;
+	font-size: .9em;
+	background-color: #FFF;
+	color: inherit;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000B;
+}

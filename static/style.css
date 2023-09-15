@@ -1,0 +1,99 @@
+:root {
+	--border-width: 2px;
+	--border-default: var(--border-width) solid #0001;
+	--navbar-spacing-y: 1.5em;
+	--navbar-spacing-x: 1.6em;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000b;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.navbar {
+	border: var(--border-default);
+	color: #0006;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar-links {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+.main-link {
+	font-weight: bold;
+	color: #000b;
+	border: var(--border-default);
+	border-width: 0 2px 0 0;
+	padding-block: var(--navbar-spacing-y);
+	padding-inline: var(--navbar-spacing-x);
+	margin: 0 !important;
+}
+
+.navbar-links > li {
+	margin-block: var(--navbar-spacing-y);
+	margin-left: var(--navbar-spacing-x);
+	padding-right: var(--navbar-spacing-x);
+	border: var(--border-default);
+	border-width: 0 2px 0 0;
+}
+
+.global-container {
+	max-width: 100vw;
+	box-sizing: border-box;
+	margin: 10em;
+	display: flex;
+	flex-direction: row;
+	gap: 3em;
+}
+
+.sidebar {
+	width: 35em;
+}
+
+.main-content {
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+.inline-card {
+	display: flex;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+.card {
+	border: var(--border-default);
+	margin-block: 0.5em;
+}
+
+.card-body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0.6em;
+}
+
+.avatar {
+	border-radius: 100%;
+}

@@ -1,0 +1,90 @@
+.jumbotron {
+	border: var(--border-default);
+    margin-bottom: 2em;
+    background-color: #FFF;
+}
+
+.inline-header {
+	display: flex;
+	justify-content: space-between;
+	border: var(--border-default);
+	border-width: 0 0 2px 0;
+}
+
+.left-heading,
+.right-heading {
+	padding: 3em;
+}
+
+.right-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    min-width: 15em;
+    gap: 1em;
+}
+
+.left-heading {
+	border: var(--border-default);
+	border-width: 0 2px 0 0;
+	width: 100%;
+}
+
+.jumbotron-content {
+	padding: 3em;
+}
+
+.jumbotron-subcontent {
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.jumbotron-time {
+    text-align: right;
+    font-weight: 700;
+}
+
+.jumbotron-social-cont {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+}
+
+.jumbotron-social-cont > p {
+    color: #0004 !important;
+}
+
+.general-link {
+    text-decoration: underline;
+    text-underline-offset: .2em;
+    text-transform: uppercase;
+}
+
+.space-border-right {
+    border: var(--border-default);
+    border-width: 0 2px 0 0;
+    padding-right: 1.5em;
+}
+
+.jumbotron-person {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1em;
+}
+
+.jumbotron-person > p {
+    margin: 0;
+}
+
+.jumbotron-h2 {
+   font-size: 2em; 
+   font-weight: 800;
+}
+.jumbotron-h3 {
+    font-weight: 500;
+    font-size: 1em;
+    color: #0006;
+}
